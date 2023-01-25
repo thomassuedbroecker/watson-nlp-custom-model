@@ -1,5 +1,7 @@
 # custom
 .DS_Store
+docker/app/models/my-custom-watson-nlp-model
+backup.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -130,3 +132,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
