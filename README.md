@@ -2,7 +2,7 @@
 
 This project contains assets and information related to create a custom Watson NLP for Embed models.
 
-Related blog post [Customize a model for Watson NLP for Embed](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/).
+Related blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/).
 
 ### Step 1: Clone the repository
 
