@@ -4,6 +4,10 @@ This project contains assets and information related to create a custom Watson N
 
 Related blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) and [`Watson NLP for Embed` customize a classification model](TBD)
 
+## Run Watson NLP for Embed with a customized model
+
+> _Note:_ Your need to create a customized model and save it in the `docker/app/models` folder.
+
 ### Step 1: Clone the repository
 
 ```sh
