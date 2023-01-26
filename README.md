@@ -2,7 +2,53 @@
 
 This project contains assets and information related to create a custom Watson NLP for Embed models.
 
-Related blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) and [`Watson NLP for Embed` customize a classification model](TBD)
+Related blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) and [`Watson NLP for Embed` customize a classification model](TBD).
+
+## Load the example Jupyter notebook into WatsonStudio
+
+Follow the steps of the blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) to get familiar with the WatsonStudio.
+
+### Step 1: Clone the project to your local computer
+
+```sh
+git clone https://https://github.com/thomassuedbroecker/watson-nlp-custom-model.git
+cd watson-nlp-custom-model
+```
+
+### Step 2: Open your WatsonStudio project on IBM Cloud
+
+### Step 3: Select `New asset`
+
+![](images/image-1.png)
+
+### Step 4: Press `Jupyther notebook editor`
+
+![](images/image-2.png)
+
+### Step 5: Select runtime `Jupyther notebook editor`
+
+* Runtime: `DO + NLP Runtime 22.1 on Python 3.9 (2 CPU 8 GB RAM)`
+
+![](images/image-3.png)
+
+
+### Step 5: Upload the `Jupyther notebook` file `watson-nlp-custom-model-for-text-classification.ipynb` from your local machine and press `Create`
+
+Location of the file `YOUR_PATH/watson-nlp-custom-model/juypter-notebook/watson-nlp-custom-model-for-text-classification.ipynb`.
+
+![](images/image-4.png)
+
+### Step 6: Execute the steps in the `Jupyter notebook`
+
+![](images/image-5.png)
+
+Link to the notebook
+
+
+
+
+
+
 
 ## Run Watson NLP for Embed with a customized model
 
