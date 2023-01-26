@@ -2,7 +2,7 @@
 
 This project contains assets and information related to create a custom Watson NLP for Embed models.
 
-Related blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/).
+Related blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) and [`Watson NLP for Embed` customize a classification model](TBD)
 
 ### Step 1: Clone the repository
 
@@ -74,8 +74,52 @@ Login Succeeded
 
 [STARTING RUNTIME]
 ...
-"2023-01-25T10:25:07.040114"}
+"2023-01-25T20:25:07.040114"}
 [STARTING GATEWAY]
-2023/01/25 10:25:07 Running with INSECURE credentials
-2023/01/25 10:25:07 Serving proxy calls INSECURE
+2023/01/25 20:25:07 Running with INSECURE credentials
+2023/01/25 20:25:07 Serving proxy calls INSECURE
+```
+
+### Step 6: Open a new terminal and insert following `curl` command
+
+```sh
+curl -s -X POST "http://localhost:8080/v1/watson.runtime.nlp.v1/NlpService/ClassificationPredict" \
+  -H "accept: application/json" \
+  -H "grpc-metadata-mm-model-id: ensemble_model" \
+  -H "content-type: application/json" \
+  -d "{ \"rawDocument\": \
+    { \"text\": \"The credit card doesn't work and I look at the savings, but I need more money to spend.\" }}" | jq
+```
+
+* Example output:
+
+```sh
+{
+  "classes": [
+    {
+      "className": "Credit card or prepaid card",
+      "confidence": 0.5404788
+    },
+    {
+      "className": "Debt collection",
+      "confidence": 0.22745371
+    },
+    {
+      "className": "Credit reporting, credit repair services, or other personal consumer reports",
+      "confidence": 0.22019744
+    },
+    {
+      "className": "Checking or savings account",
+      "confidence": 0.100063786
+    },
+    {
+      "className": "Mortgage",
+      "confidence": 0.043992974
+    }
+  ],
+  "producerId": {
+    "name": "Voting based Ensemble",
+    "version": "0.0.1"
+  }
+}
 ```

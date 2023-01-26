@@ -2,6 +2,8 @@
 .DS_Store
 docker/app/models/my-custom-watson-nlp-model
 docker/app/models/svm_model
+docker/app/models/ensemble_model
+jupyter-notebook/local-config.ipynb
 backup.txt
 
 # Byte-compiled / optimized / DLL files
@@ -135,4 +137,4 @@ dmypy.json
 .pyre/
 
 
-docker/app/models/ensemble_model
+
