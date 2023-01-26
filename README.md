@@ -20,7 +20,7 @@ git clone https://https://github.com/thomassuedbroecker/watson-nlp-custom-model.
 cd watson-nlp-custom-model
 ```
 
-### Step 3: Open your WatsonStudio project on IBM Cloud
+### Step 3: Open your Watson Studio project on IBM Cloud
 
 ### Step 4: Select `New asset`
 
@@ -138,7 +138,7 @@ curl -s -X POST "http://localhost:8080/v1/watson.runtime.nlp.v1/NlpService/Class
   -H "grpc-metadata-mm-model-id: ensemble_model" \
   -H "content-type: application/json" \
   -d "{ \"rawDocument\": \
-    { \"text\": \"The credit card doesn't work and I look at the savings, but I need more money to spend.\" }}" | jq
+    { \"text\": \"The credit card doesn't work, and I look at the savings, but I need more money to spend.\" }}" | jq
 ```
 
 * Example output:
