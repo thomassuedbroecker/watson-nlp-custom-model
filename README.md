@@ -4,54 +4,53 @@ This project contains assets and information related to create a custom Watson N
 
 Related blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) and [`Watson NLP for Embed` customize a classification model](TBD).
 
-## Load the example Jupyter notebook into WatsonStudio
+* Customize the model for `Watson NLP`
+* Run `Watson NLP for Embed` with a customized model on the local computer
 
-Follow the steps of the blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) to get familiar with the WatsonStudio.
+## Customize the model for Watson NLP
 
-### Step 1: Clone the project to your local computer
+### Step 1: Familiarize yourself with `Watson Studio`
+
+Follow the steps of the blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) to get familiar with the `Watson Studio`.
+
+### Step 2: Clone the project to your local computer
 
 ```sh
 git clone https://https://github.com/thomassuedbroecker/watson-nlp-custom-model.git
 cd watson-nlp-custom-model
 ```
 
-### Step 2: Open your WatsonStudio project on IBM Cloud
+### Step 3: Open your WatsonStudio project on IBM Cloud
 
-### Step 3: Select `New asset`
+### Step 4: Select `New asset`
 
 ![](images/image-1.png)
 
-### Step 4: Press `Jupyther notebook editor`
+### Step 5: Press `Jupyther notebook editor`
 
 ![](images/image-2.png)
 
-### Step 5: Select runtime `Jupyther notebook editor`
+### Step 6: Select runtime `Jupyther notebook editor`
 
 * Runtime: `DO + NLP Runtime 22.1 on Python 3.9 (2 CPU 8 GB RAM)`
 
 ![](images/image-3.png)
 
 
-### Step 5: Upload the `Jupyther notebook` file `watson-nlp-custom-model-for-text-classification.ipynb` from your local machine and press `Create`
+### Step 7: Upload the `Jupyther notebook` file `watson-nlp-custom-model-for-text-classification.ipynb` from your local machine and press `Create`
 
 Location of the file `YOUR_PATH/watson-nlp-custom-model/juypter-notebook/watson-nlp-custom-model-for-text-classification.ipynb`.
 
 ![](images/image-4.png)
 
-### Step 6: Execute the steps in the `Jupyter notebook`
+### Step 8: Execute the steps in the `Jupyter notebook`
 
 ![](images/image-5.png)
 
 Link to the notebook: [Watson NLP custom model for text classification](https://github.com/thomassuedbroecker/watson-nlp-custom-model/blob/main/jupyter-notebook/watson-nlp-custom-model-for-text-classification.ipynb).
 
-### Step 6: Execute the steps in the `Jupyter notebook`
 
-
-
-
-
-
-## Run Watson NLP for Embed with a customized model
+## Run Watson NLP for Embed with a customized model on the local computer
 
 > _Note:_ Your need to create a customized model and save it in the `docker/app/models` folder.
 
