@@ -42,8 +42,9 @@ Location of the file `YOUR_PATH/watson-nlp-custom-model/juypter-notebook/watson-
 
 ![](images/image-5.png)
 
-Link to the notebook
+Link to the notebook: [Watson NLP custom model for text classification](https://github.com/thomassuedbroecker/watson-nlp-custom-model/blob/main/jupyter-notebook/watson-nlp-custom-model-for-text-classification.ipynb).
 
+### Step 6: Execute the steps in the `Jupyter notebook`
 
 
 
