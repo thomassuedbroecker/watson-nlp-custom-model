@@ -2,7 +2,7 @@
 
 This project contains assets and information related to create a custom Watson NLP for Embed models.
 
-Related blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) and [`Watson NLP for Embed` customize a classification model](https://suedbroecker.net/2023/01/26/watson-nlp-for-embed-customize-a-classification-model-and-use-it-on-your-local-machine/).
+Related blog post [`Create a custom dictionary model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) and [`Watson NLP for Embed` customize a classification model](https://suedbroecker.net/2023/01/26/watson-nlp-for-embed-customize-a-classification-model-and-use-it-on-your-local-machine/).
 
 * [Customize a classification model for `Watson NLP for Embed`](https://github.com/thomassuedbroecker/watson-nlp-custom-model/blob/main/README.md#customize-the-model-for-watson-nlp)
 * [Run `Watson NLP for Embed` with a customized model on the local computer](https://github.com/thomassuedbroecker/watson-nlp-custom-model#run-watson-nlp-for-embed-with-a-customized-model-on-the-local-computer)
