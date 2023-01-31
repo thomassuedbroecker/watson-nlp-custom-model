@@ -9,6 +9,15 @@ Related blog post [`Create a custom dictionary model for Watson NLP`](https://s
 
 ## Customize a classification model for `Watson NLP for Embed` 
 
+* Step 1: Familiarize yourself with `Watson Studio`
+* Step 2: Clone the project to your local computer
+* Step 3: Open your Watson Studio project on IBM Cloud
+* Step 4: Select `New asset`
+* Step 5: Press `Jupyther notebook editor`
+* Step 6: Select runtime `Jupyther notebook editor`
+* Step 7: Upload the `Jupyther notebook` file `watson-nlp-custom-model-for-text-classification.ipynb` from your local machine and press `Create`
+* Step 8: Execute the steps in the `Jupyter notebook`
+
 ### Step 1: Familiarize yourself with `Watson Studio`
 
 Follow the steps of the blog post [`Customize a model for Watson NLP`](https://suedbroecker.net/2023/01/17/customize-a-model-for-watson-nlp/) to get familiar with the `Watson Studio`.
@@ -36,7 +45,6 @@ cd watson-nlp-custom-model
 
 ![](images/image-3.png)
 
-
 ### Step 7: Upload the `Jupyther notebook` file `watson-nlp-custom-model-for-text-classification.ipynb` from your local machine and press `Create`
 
 Location of the file `YOUR_PATH/watson-nlp-custom-model/juypter-notebook/watson-nlp-custom-model-for-text-classification.ipynb`.
@@ -53,6 +61,14 @@ Link to the notebook: [Watson NLP custom model for text classification](https://
 ## Run Watson NLP for Embed with a customized model on the local computer
 
 > _Note:_ Your need to create a customized model and save it in the `docker/app/models` folder.
+
+* Step 1: Clone the repository
+* Step 2: Navigate to the `docker` folder
+* Step 3: Create a `.env` file
+* Step 4: Add an IBM Cloud access key to your local `.env` file
+* Step 5: Execute the bash automation
+* Step 6: Open a new terminal and insert following `curl` command
+
 
 ### Step 1: Clone the repository
 
