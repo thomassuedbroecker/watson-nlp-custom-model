@@ -156,7 +156,7 @@ curl -s -X POST "http://localhost:8080/v1/watson.runtime.nlp.v1/NlpService/Class
   -H "grpc-metadata-mm-model-id: ensemble_model" \
   -H "content-type: application/json" \
   -d "{ \"rawDocument\": \
-    { \"text\": \"The credit card doesn't work, and I look at the savings, but I need more money to spend.\" }}" | jq
+    { \"text\": \"The credit card doesn t work, and I look at the savings, but I need more money to spend.\" }}" | jq
 ```
 
 * Example output:
