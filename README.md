@@ -7,6 +7,8 @@ Related blog post [`Create a custom dictionary model for Watson NLP`](https://s
 * [Customize a classification model for `Watson NLP for Embed`](https://github.com/thomassuedbroecker/watson-nlp-custom-model/blob/main/README.md#customize-the-model-for-watson-nlp)
 * [Run `Watson NLP for Embed` with a customized model on the local computer](https://github.com/thomassuedbroecker/watson-nlp-custom-model#run-watson-nlp-for-embed-with-a-customized-model-on-the-local-computer)
 
+> Visit the list of the [supported models for Watson NLP for Embed](https://www.ibm.com/docs/en/watson-libraries?topic=models-creating-custom)
+
 ## Customize a classification model for `Watson NLP for Embed` 
 
 * Step 1: Familiarize yourself with `Watson Studio`
