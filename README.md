@@ -62,7 +62,7 @@ Link to the notebook: [Watson NLP custom model for text classification](https://
 
 ## Run Watson NLP for Embed with a customized model on the local computer
 
-> _Note:_ Your need to create a customized model and save it in the `docker/app/models` folder.
+> _Note:_ Your need to create a customized model and save it in the `docker/app/models` folder. [Please read the readme.](https://github.com/thomassuedbroecker/watson-nlp-custom-model/blob/main/docker/app/models/YOUR_MODEL.md)
 
 * Step 1: Clone the repository
 * Step 2: Navigate to the `docker` folder
@@ -108,7 +108,7 @@ export WATSON_RUNTIME_BASE="$IMAGE_REGISTRY/$RUNTIME_IMAGE"
 
 ### Step 5: Ensure you have copied your model to the folder `docker/app/models`.
 
-![Please read the readme.](https://github.com/thomassuedbroecker/watson-nlp-custom-model/blob/main/docker/app/models/YOUR_MODEL.md)
+[Please read the readme.](https://github.com/thomassuedbroecker/watson-nlp-custom-model/blob/main/docker/app/models/YOUR_MODEL.md)
 
 ### Step 5: Execute the bash automation
 
