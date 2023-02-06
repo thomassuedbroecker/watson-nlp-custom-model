@@ -106,6 +106,10 @@ export RUNTIME_IMAGE="watson-nlp-runtime:1.0.20"
 export WATSON_RUNTIME_BASE="$IMAGE_REGISTRY/$RUNTIME_IMAGE"
 ```
 
+### Step 5: Ensure you have copied your model to the folder `docker/app/models`.
+
+![Please read the readme.](https://github.com/thomassuedbroecker/watson-nlp-custom-model/blob/main/docker/app/models/YOUR_MODEL.md)
+
 ### Step 5: Execute the bash automation
 
 >The creation can take up to 10 minutes for the download of the runtime image.
